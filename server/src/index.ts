@@ -13,7 +13,7 @@ const MONGODB_URI = Config.mongoDB_URL;
 console.log("MONGODB_URI:", MONGODB_URI);
 console.log("PORT:", PORT);
 
-const allowedOrigins = ["http://localhost:5173", "http://127.0.0.1:5173"];
+const allowedOrigins = ["http://localhost:5173", "http://127.0.0.1:5173","https://tech-shop-sowinski.netlify.app"];
 app.use(cors({
   credentials: true,
   origin: (origin, callback) => {
