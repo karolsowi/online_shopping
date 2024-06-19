@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
   baseURL:
-    process.env.NODE_ENV === "development" ? "http://localhost:4420/" : "/",
+    process.env.NODE_ENV === "production" ? "https://online-shopping-27wa.onrender.com" : "/",
   headers: {
     "Content-Type": "application/json",
   },

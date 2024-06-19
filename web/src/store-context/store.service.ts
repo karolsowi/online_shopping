@@ -4,10 +4,6 @@ import { ActionType, AppStateType } from "./store.context";
 export function reducer(state: AppStateType, action: ActionType): AppStateType {
   switch (action.type) {
 
-    case "SWITCH_MODE":
-      localStorage.setItem("mode", state.mode === "dark" ? "light" : "dark");
-      return { ...state, mode: state.mode === "dark" ? "light" : "dark" };
-
     case "CART_ADD_ITEM":
       const newItem = action.payload;
       const existItem = state.cart.cartItems.find(

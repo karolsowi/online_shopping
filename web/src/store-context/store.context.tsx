@@ -39,7 +39,6 @@ export const initialState: AppStateType = {
 };
 
 export type ActionType =
-  | { type: "SWITCH_MODE" }
   | { type: "SET_FULLBOX_ON" }
   | { type: "SET_FULLBOX_OFF" }
   | { type: "CART_ADD_ITEM"; payload: CartItemType }
