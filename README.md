@@ -1,3 +1,3 @@
 Projekt na przedmiot Aplikacje Internetowe
 
-Link: 
+Link: https://tech-shop-sowinski.netlify.app/
